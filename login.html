@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
-        <link rel="icon" href="images/logo.png">
+    <link rel="icon" href="images/logo.png">
 
     <title>Login-page|Cofea</title>
 </head>
 
 <body>
-   <header class="max-w-7xl mx-auto min-h-[220px] md:min-h-[500px] bg-[url(images/image-1.png)] bg-no-repeat bg-cover bg-center ">
+    <header
+        class="max-w-7xl mx-auto min-h-[220px] md:min-h-[500px] bg-[url(images/image-1.png)] bg-no-repeat bg-cover bg-center ">
         <nav class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl bg-black/80 z-50">
             <div class="max-w-7xl mx-auto flex flex-nowrap justify-between items-center px-10">
                 <div class="w-[80px] md:w-[120px] lg:w-[120px] p-2">
@@ -28,130 +29,151 @@
                     </ul>
                 </nav>
 
-              <img src="images/Group 7.png" alt="" class="w-8 h-8 cursor-pointer ">
+                <img src="images/Group 7.png" alt="" class="w-8 h-8 cursor-pointer ">
+            </div>
 
+        </nav>
+        <div class="py-44 px-16">
+            <p class="text-sm  text-white ">WELCOME</p>
+            <h1 class="text-5xl font-bold text-white  py-4">Your coffee <br> journey starts here</h1>
+            <p class=" py-4 text-white">Experience the perfect blend of rich coffee, warm <br> moments, and
+                unforgettable flavors. Sign in and make every <br> coffee moment special.</p>
+
+            <a href="login.html"
+                class=" bg-yellow-600 hover:bg-yellow-700 text-white font-bold p-2 rounded-full my-4 ">Order now</a>
+
+        </div>
 
     </header>
 
 
-<section class=" max-w-7xl mx-auto bg-[#f7f4ef] flex items-center justify-center p-4">
+    <section class=" max-w-7xl mx-auto bg-[#f7f4ef] flex items-center justify-center p-4">
 
-    <div class="w-full max-w-[1200px] grid grid-cols-1 md:grid-cols-2 rounded-2xl shadow-xl">
+        <div class="w-full max-w-[1200px] grid grid-cols-1 md:grid-cols-2 rounded-2xl shadow-xl">
 
-        <div class="w-full h-[600px] bg-[url('images/photo-1.avif')] bg-cover bg-center bg-no-repeat relative flex flex-col justify-end">
-
-
-            <div class="p-8">
-
-                <h1 class="text-lg text-[#FDE68A] ">
-                    WELCOME BACK
-                </h1>
-
-                <h2 class="text-white text-4xl  font-bold py-2">
-                    Your coffee corner is just a sign in away.
-                </h2>
-
-                <p class="text-lg text-white py-2">
-                    Good coffee. Good people. Good moments.
-                </p>
-
-            </div>
-        </div>
+            <div
+                class="w-full h-[600px] bg-[url('images/photo-1.avif')] bg-cover bg-center bg-no-repeat relative flex flex-col justify-end">
 
 
-        <div class="w-full min-h-[600px] bg-white p-6  flex flex-col justify-center">
+                <div class="p-8">
 
-            <h1 class="text-[#30261C] text-2xl font-bold pb-10">
-                Colfea.
-            </h1>
+                    <h1 class="text-lg text-[#FDE68A] ">
+                        WELCOME BACK
+                    </h1>
 
-            <h2 class="text-[#9A4D1A] text-sm ">
-                MEMBER ACCOUNT
-            </h2>
+                    <h2 class="text-white text-4xl  font-bold py-2">
+                        Your coffee corner is just a sign in away.
+                    </h2>
 
-            <h1 class="font-bold text-4xl text-[#241A15] py-3">
-                Welcome back!
-            </h1>
-
-            <p class="text-[#30261C] text-lg pb-8">
-                Sign in to continue your café experience.
-            </p>
-
-            <form action="">
-
-                <label>Email address </label>
-<input type="email" placeholder="you@example.com" required
-                 class="w-full border border-gray-300 rounded-lg p-4 mb-6 focus:border-[#9A4D1A]">
-
-                <label>Password</label>
- <input type="password"  placeholder="Enter your password" required
-                 class="w-full border border-gray-300 rounded-lg p-4 mb-5 focus:border-[#9A4D1A]">
-
-                <div class="flex justify-between items-center mb-8">
-
-                    <label class="flex items-center gap-2">
-                        <input type="checkbox">
-                        Remember me
-                    </label>
-
-                    <a href="#" class="text-[#9A4D1A] font-bold">
-                        Forgot password?
-                    </a>
+                    <p class="text-lg text-white py-2">
+                        Good coffee. Good people. Good moments.
+                    </p>
 
                 </div>
+            </div>
 
-                <button type="submit"
-                    class="w-full bg-[#241A15] text-white font-bold p-4 rounded-full hover:bg-[#9A4D1A] ">
-                    Sign in
-                </button>
 
-            </form>
+            <div class="w-full min-h-[600px] bg-white p-2  flex flex-col justify-center">
 
-          
+                <h1 class="text-[#30261C] text-2xl font-bold py-2">
+                    Colfea.
+                </h1>
+
+                <h2 class="text-[#9A4D1A] text-sm ">
+                    MEMBER ACCOUNT
+                </h2>
+
+                <h1 class="font-bold text-4xl text-[#241A15] py-2">
+                    Welcome back!
+                </h1>
+
+                <p class="text-[#30261C] text-lg pb-2">
+                    Sign in to continue your café experience.
+                </p>
+
+                <form action="">
+                    <label>Name </label>
+                    <input type="text" placeholder="Enter your name" required
+                        class="w-full border border-gray-300 rounded-lg p-4 mb-6 focus:border-[#9A4D1A]">
+
+                    <label>Email address </label>
+                    <input type="email" placeholder="you@example.com" required
+                        class="w-full border border-gray-300 rounded-lg p-4 mb-6 focus:border-[#9A4D1A]">
+
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter your password" required
+                        class="w-full border border-gray-300 rounded-lg p-4 mb-5 focus:border-[#9A4D1A]">
+
+                    <div class="flex justify-between items-center mb-8">
+
+                        <label class="flex items-center gap-2">
+                            <input type="checkbox">
+                            Remember me
+                        </label>
+
+                        <a href="#" class="text-[#9A4D1A] font-bold">
+                            Forgot password?
+                        </a>
+
+                    </div>
+
+                    <button type="submit"
+                        class="w-full bg-[#241A15] text-white font-bold p-4 rounded-full hover:bg-[#9A4D1A] ">
+                        Sign in
+                    </button>
+
+                </form>
+
+
+
+            </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section class="max-w-7xl mx-auto">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.3437105646067!2d75.75616837523452!3d26.860818876677612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db507851ce989%3A0x1fbb7541840e10aa!2sHeera%20Path%2C%20Ward%2027%2C%20Mansarovar%20Sector%206%2C%20Mansarovar%2C%20Jaipur%2C%20Jaipur%20Nagar%20Nigam%20Area%2C%20Rajasthan%20302020%2C%20India!5e0!3m2!1sen!2suk!4v1795447940355!5m2!1sen!2suk"
+            width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
 
-<section class="max-w-7xl mx-auto">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.3437105646067!2d75.75616837523452!3d26.860818876677612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db507851ce989%3A0x1fbb7541840e10aa!2sHeera%20Path%2C%20Ward%2027%2C%20Mansarovar%20Sector%206%2C%20Mansarovar%2C%20Jaipur%2C%20Jaipur%20Nagar%20Nigam%20Area%2C%20Rajasthan%20302020%2C%20India!5e0!3m2!1sen!2suk!4v1795447940355!5m2!1sen!2suk" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-</section>
 
+    <footer
+        class="max-w-7xl mx-auto p-8 bg-black  text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
-    <footer class="max-w-7xl mx-auto p-8 bg-black  text-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-      
-<ul class="font-bold text-2xl ">
-    <li><img src="images/logo.png" alt="" class="w-[100px] mt-4"></li>
+        <ul class="font-bold text-2xl ">
+            <li><img src="images/logo.png" alt="" class="w-[140px]"></li>
             <li>Colfea Cafe</li>
-</ul>
+        </ul>
         <ul>
             <li class="font-bold">PRIVACY</li>
             <li>Terms of use</li>
             <li>Privacy policy</li>
             <li>Cookies</li>
-       </ul>
+        </ul>
 
-       <ul>
-        <li class="font-bold">Pages</li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="coffee.html">Coffee</a></li>
-        <li><a href="bakery.html">Bakery</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="login.html">Login</a></li>
-       </ul>
+        <ul>
+            <li class="font-bold">Pages</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="coffee.html">Coffee</a></li>
+            <li><a href="bakery.html">Bakery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
 
-       <ul>
-        <li class="font-bold">Visit us</li>
-        <li>Heera-path,Mansrovar</li>
-        <li>Jaipur,Rajasthan</li>
-        <li>+91 9876543210</li>
-        <li>Vikashkumawat189@gmail.com</li>
-       </ul>
+        <ul>
+            <li class="font-bold">Visit us</li>
+            <li>Heera-path,Mansrovar</li>
+            <li>Jaipur,Rajasthan</li>
+            <li>+91 9876543210</li>
+            <li>Vikashkumawat189@gmail.com</li>
+        </ul>
 
-      
+
     </footer>
 
-    </body>
-    </html>
+</body>
+
+</html>
